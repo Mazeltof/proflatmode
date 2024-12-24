@@ -1,10 +1,6 @@
 @charset "utf-8";
 
 html, [data-theme=light] {
-	/*--color01: #94b5d6;
-	--color02: #6493c5;
-	--color03: #738da7;*/
-	--color04: #ffffff;
 	--color05: #FFFFFF;
 	--color06: #f5f5f5;
 	--color07: #EEEEEE;
@@ -13,7 +9,7 @@ html, [data-theme=light] {
 	--color10: #CCCCCC;
 	--color11: #999999;
 	--color12: #666666;
-	--color12.5: #66666680;
+	--color125: #66666680;
 	--color13: #333333;
 	--color14: #222222;
 	--color15: #111111;
@@ -25,12 +21,7 @@ html, [data-theme=light] {
 	--switch-light-dark: "\f186";
 	color-scheme: light;
 }
-@media (prefers-color-scheme:dark) {
-	html {
-	/*--color01: #94b5d6;
-	--color02: #6493c5;
-	--color03: #738da7;*/
-	--color04: #ffffff;
+[data-theme=dark] {
 	--color05: #000000;
 	--color06: #111111;
 	--color07: #222222;
@@ -39,7 +30,29 @@ html, [data-theme=light] {
 	--color10: #999999;
 	--color11: #CCCCCC;
 	--color12: #dddddd;
-	--color12.5: #dddddd80;
+	--color125: #dddddd80;
+	--color13: #e5e5e5;
+	--color14: #EEEEEE;
+	--color15: #f5f5f5;
+	--color16: #FFFFFF;
+	--color17: #d31141;
+	--color18: #FF6600;
+	--color19: #A9B8C2;
+	--color20: #5D8FBD;	
+	--switch-light-dark: "\f185";
+	color-scheme: dark;
+}
+@media (prefers-color-scheme:dark) {
+	html {
+	--color05: #000000;
+	--color06: #111111;
+	--color07: #222222;
+	--color08: #333333;
+	--color09: #666666;
+	--color10: #999999;
+	--color11: #CCCCCC;
+	--color12: #dddddd;
+	--color125: #dddddd80;
 	--color13: #e5e5e5;
 	--color14: #EEEEEE;
 	--color15: #f5f5f5;
@@ -52,36 +65,10 @@ html, [data-theme=light] {
 	color-scheme: dark;
 	}
 }
-[data-theme=dark] {
-	/*--color01: #94b5d6;
-	--color02: #6493c5;
-	--color03: #738da7;*/
-	--color04: #ffffff;
-	--color05: #000000;
-	--color06: #111111;
-	--color07: #222222;
-	--color08: #333333;
-	--color09: #666666;
-	--color10: #999999;
-	--color11: #CCCCCC;
-	--color12: #dddddd;
-	--color12.5: #dddddd80;
-	--color13: #e5e5e5;
-	--color14: #EEEEEE;
-	--color15: #f5f5f5;
-	--color16: #FFFFFF;
-	--color17: #d31141;
-	--color18: #FF6600;
-	--color19: #A9B8C2;
-	--color20: #5D8FBD;	
-	--switch-light-dark: "\f185";
-	color-scheme: dark;
-}
 
 /* Switch */
 .switch-theme i:before {
 	content: var(--switch-light-dark);
-	/*vertical-align: middle;*/
 }
 
 

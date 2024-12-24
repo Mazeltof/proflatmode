@@ -1,7 +1,7 @@
 {
 	"name": "mazeltof/proflatmode",
 	"type": "phpbb-extension",
-	"description": "adds proflat light-dark theme",
+	"description": "adds proflat light-dark mode",
 	"homepage": "https://www.mazeland.fr/",
 	"version": "1.0.0",
 	"license": "GPL-2.0",

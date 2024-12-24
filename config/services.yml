@@ -1,5 +1,5 @@
 services:
-    mazeltof.mazeland.listener:
+    mazeltof.proflatmode.listener:
         class: mazeltof\proflatmode\event\listener
         arguments:
             - '@user'
